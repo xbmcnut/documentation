@@ -54,6 +54,7 @@ Number  Start   End     Size    Type     File system  Flags
  2      99.6MB  30.8GB  30.7GB  primary  ext4         lba
 ```
 Your `parted print` output should look similar to the one above.
+If OK, type 'quit' to exit Parted
 
 Create the boot and root file systems:
 ```
